@@ -1,14 +1,12 @@
 import Header from './Header'
 import Footer from './Footer'
+import HeroSection from './HeroSection'
 
 export default function Home() {
     return (
         <div>
             <Header />
-
-            <h1>
-                Home
-            </h1>
+            <HeroSection />
 
             <Footer />
         </div>
