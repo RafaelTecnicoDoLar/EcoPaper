@@ -1,0 +1,32 @@
+footer {
+    background-color: #65d10c;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+
+}
+
+.Realizacao {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.imgfooter {
+    height: 4rem;
+    padding: 1rem;
+}
+
+.Logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+
+}

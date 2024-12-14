@@ -15,10 +15,17 @@
 
 }
 
+#PlantaOperacional{
+    background-image: url(../assets/Background/PlantaOperacional.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .Texto {
     color: white;
     font-size: 4rem;
-text-align: center;
+    text-align: center;
 }
 
 .Botao {
