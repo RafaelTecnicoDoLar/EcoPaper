@@ -1,0 +1,12 @@
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50rem;
+    
+}
+
+.Input{
+margin: 1rem;
+padding: 1rem;
+}

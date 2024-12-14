@@ -1,6 +1,6 @@
 import "../Styles/Card.css"
 
-export default function Card({ Imagem, Titulo, SubTitulo, Link }) {
+export default function Card({ Imagem, Titulo, SubTitulo, Contato }) {
     return (
         <div className="Card">
             <img className="img" src={Imagem} />
@@ -9,7 +9,7 @@ export default function Card({ Imagem, Titulo, SubTitulo, Link }) {
 
             <p className="Subtitulo"> {SubTitulo} </p>
 
-            <a className="Botao botaoAnimacao" href={Link} target="_blank"> Comprar </a>
+            <a className="Botao botaoAnimacao" href={"/contato"}> Entre em contato </a>
 
         </div>
     )

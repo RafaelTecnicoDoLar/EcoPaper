@@ -2,14 +2,14 @@ import "../Styles/CardService.css"
 
 export default function Card({ Imagem, Titulo, SubTitulo}) {
     return (
-        <div className="Card">
-            <img className="img" src={Imagem} />
+        <div className="Cardservice">
+            <img className="imgservice" src={Imagem} />
 
-            <h1 className="Titulo"> {Titulo} </h1>
+            <h1 className="Tituloservice"> {Titulo} </h1>
 
-            <p className="Subtitulo"> {SubTitulo} </p>
+            <p className="Subtituloservice"> {SubTitulo} </p>
 
-            <a className="Botao botaoAnimacao" href={"/contato"} target="_blanck"> Entre em contato</a>
+            <a className="Botao botaoAnimacao" href={"/contato"}> Entre em contato</a>
 
         </div>
     )
