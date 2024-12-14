@@ -11,6 +11,7 @@ import Blog from './Components/Blog'
 import Post from './Components/Post'
 import Ri from './Components/Ri'
 import Produtos from './Components/Produtos'
+import Servicos from './Components/Servicos'
 
 import PageNotFound from './Components/PageNotFound'
 
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="produtos" element={<Produtos />} />
+        <Route path="servicos" element={<Servicos />} />
         <Route path="/blog" >
           <Route index element={<Blog />} />
           <Route path="/blog/sustentabilidade" element={<Post />} />

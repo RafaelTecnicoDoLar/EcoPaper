@@ -18,10 +18,10 @@ export default function Home() {
                 </h1>
 
                 <div className='Carrossel'>
-                    <Card Imagem={PaperKraft} Titulo={"Paper Kraft"} SubTitulo={"Ideal para embalagens ecológicas e resistentes."} link={""}/>
-                    <Card Imagem={CaixaPapelao} Titulo={"Caixas"} SubTitulo={"Embalagens feitas sob medida para atender às necessidades do seu negócio."} link={""}/>
-                    <Card Imagem={Sulfite} Titulo={"Papéis sulfite"} SubTitulo={"Papéis reciclados de alta qualidade para impressão e uso diário."} link={""}/>
-                    <Card Imagem={Etiqueta} Titulo={"Paper Kraft"} SubTitulo={"Perfeitos para branding e rotulagem sustentável."} link={""}/>
+                    <Card Imagem={PaperKraft} Titulo={"Papel Kraft Sustentável"} SubTitulo={"Ideal para embalagens ecológicas e resistentes."} link={""}/>
+                    <Card Imagem={CaixaPapelao} Titulo={"Caixas Personalizadas"} SubTitulo={"Embalagens feitas sob medida para atender às necessidades do seu negócio."} link={""}/>
+                    <Card Imagem={Sulfite} Titulo={"Papéis para Escritório"} SubTitulo={"Papéis reciclados de alta qualidade para impressão e uso diário."} link={""}/>
+                    <Card Imagem={Etiqueta} Titulo={"Etiquetas Ecológicas"} SubTitulo={"Perfeitos para branding e rotulagem sustentável."} link={""}/>
                 </div>
 
             </div>

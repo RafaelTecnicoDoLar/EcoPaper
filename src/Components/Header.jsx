@@ -1,6 +1,7 @@
 import '../Styles/Header.css'
 import Logo from '../assets/Logo/Logo.png'
 
+
 import email from '../assets/Botao/email.png'
 import idioma from '../assets/Botao/idioma.png'
 import lupa from '../assets/Botao/lupa.png'
@@ -12,10 +13,12 @@ export default function Header() {
 
             <div className='BoxLink'>
                 <a className="LinkinPark botaoAnimacao" href="/"> Home </a>
+                <a className="LinkinPark botaoAnimacao" href="/produtos"> Produtos </a>
+                <a className="LinkinPark botaoAnimacao" href="/servicos"> Serviços </a>
                 <a className="LinkinPark botaoAnimacao" href="/sobre"> Sobre nós </a>
                 <a className="LinkinPark botaoAnimacao" href="/blog"> Blog </a>
                 <a className="LinkinPark botaoAnimacao" href="/contato"> Contatos </a>
-                <a className="LinkinPark botaoAnimacao" href="/Ri"> Relação com investidores </a>
+                <a className="LinkinPark botaoAnimacao" href="/Ri"> RI </a>
 
             </div>
 
