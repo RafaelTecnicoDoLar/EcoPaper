@@ -13,7 +13,8 @@ export default function Home() {
         <div>
             <Header />
             <div className='Produtos' id='PapelReciclado'>
-                <h1 className='Titulo'>
+                
+                <h1 className='TituloProdutos'>
                     Conheça nossos Produtos
                 </h1>
 

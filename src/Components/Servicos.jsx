@@ -1,9 +1,9 @@
 import Header from './Header'
 import Footer from './Footer'
 
-import CardService from './CardService'
+import CardService from './CardService.jsx'
 
-import Empresa from '../assets/Fotos/Empresarial.jpg'
+import Empresa from '../assets/Fotos/empresarial.jpg'
 import Producao from '../assets/Fotos/Producao.jpg'
 import Entrega from '../assets/Fotos/Entrega.jpg'
 

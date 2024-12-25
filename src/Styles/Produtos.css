@@ -6,23 +6,21 @@
 
 }
 
-.Titulo{
-    font-size: 8rem;
-    
+.TituloProdutos{
+    font-size: 300%;
+    padding: 5% 0% 3% 0%;
 }
 
-.Produtos{
+.Produtos{  
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100rvh;
-    
 }
 
 .Carrossel{
     display: flex;
-
 
 }

@@ -5,7 +5,7 @@ export default function Card({ Imagem, Titulo, SubTitulo, Contato }) {
         <div className="Card">
             <img className="img" src={Imagem} />
 
-            <h1 className="Titulo"> {Titulo} </h1>
+            <p className="Titulo"> {Titulo} </p>
 
             <p className="Subtitulo"> {SubTitulo} </p>
 
